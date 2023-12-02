@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EduSafe</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+    }
+
+    .gradient-background {
+      background: linear-gradient(to right, #ADD8E6, #FF69B4);
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .sign-in-box {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      height: 360px;
+      width: 430px;
+    }
+
+    .sign-in-box header {
+      color: #333;
+    }
+
+    .sign-in-box form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .sign-in-box label {
+      font-weight: bold;
+    }
+
+
+
+    .sign-in-box button {
+      padding: 10px;
+      background-color: #09252e;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .sign-in-box button:hover {
+      background-color: #FF69B4;
+      color: #09252e;
+    }
+
+
+    .sign-in-box h4 a:hover {
+      color: #09252e;
+      cursor: pointer;
+    }
+
+    .sign-in-box h4 a {
+      color: #FF69B4;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+  </style>
+</head>
+
+<body>
+  <!-- Linear gradient background -->
+  <div class="gradient-background">
+    <!-- Sign-in box -->
+    <div class="sign-in-box">
+      <header>
+        <h2>Forgot Password</h2>
+      </header>
+      <h3>Enter your email address to reset your password</h3>
+      <form>
+        <label for="username" style="text-align: left;">Email address</label>
+        <input type="text" id="username" name="username" required placeholder="Enter Email" aria-label="Email Address">
+
+<br>
+        <button type="submit">Reset Password Link</button>
+      </form>
+
+      <h3>Do you have a Certificate but haven't registered for an account? </h3>
+      <h4><a href="institut.html">Register an account</a></h4>
+    </div>
+  </div>
+</body>
+
+</html>
