@@ -4,6 +4,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Option 1: Include in HTML -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <title>EduSafe</title>
   <style>
     body {
@@ -26,7 +31,7 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       text-align: center;
-      height: 420px;
+      height: 450px;
       width: 420px;
     }
 
@@ -45,7 +50,8 @@
     }
 
     .sign-in-box input {
-      width: calc(100% - 28px); /* Adjusted width for the eye image */
+      width: calc(100% - 28px);
+      /* Adjusted width for the eye image */
       padding: 8px;
       border: 1px solid #ccc;
       border-radius: 4px;
@@ -54,8 +60,10 @@
 
     .toggle-password {
       display: inline-block;
-      width: 28px; /* Adjusted width for the eye image */
-      height: 28px; /* Adjusted height for the eye image */
+      width: 28px;
+      /* Adjusted width for the eye image */
+      height: 28px;
+      /* Adjusted height for the eye image */
       cursor: pointer;
     }
 
@@ -102,7 +110,6 @@
       cursor: pointer;
       text-decoration: none;
     }
-
   </style>
 </head>
 
@@ -118,15 +125,18 @@
         <label for="username">Institution email address:</label>
         <input type="text" id="username" name="username" required placeholder="Enter Email" aria-label="Email Address">
 
+
         <label for="password">Password:</label>
         <div class="password-container">
-          <input type="password" id="password" name="password" required placeholder="Enter password" aria-label="Password">
-          <span class="toggle-password" onclick="togglePasswordVisibility()" role="button" tabindex="0" aria-label="Toggle Password Visibility">
-            <img src="eye-icon.png" alt="Toggle Password Visibility">
+          <input type="password" id="password" name="password" required placeholder="Enter password"
+            aria-label="Password">
+          <span class="toggle-password" onclick="togglePasswordVisibi()" role="button" tabindex="0"
+            aria-label="Toggle Password Visibility">
           </span>
+          <div class="icon"><i class="fas fa-lock"></i></div>
         </div>
-       <a href="pass.html">Forgot password?</a> 
-<br><br>
+        <a href="pass.html">Forgot password?</a>
+        <br><br>
         <button type="submit">Log In</button>
       </form>
 
