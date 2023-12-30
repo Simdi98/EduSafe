@@ -207,7 +207,7 @@ verify-content form button:hover {
 section {
     display: flex;
     background: #ffffff margin: 10px;
-    padding: 7px;
+    padding: 30px;
     align-items: center;
     justify-content: space-between;
 }
@@ -604,5 +604,3 @@ section {
         font-size: 2rem;
     }
 }
-
-
